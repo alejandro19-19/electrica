@@ -1,0 +1,75 @@
+{
+    "nombre": "sant",
+    "cedula": 1222,
+    "email": "test9@test.com",
+    "fecha_nacimiento": "2022-12-22",
+    "celular": 123,
+    "direccion": "carrera3",
+    "tipo": "Cliente",
+    "servicio_activo": "222",
+    "al_dia": 1,
+    "password": "213"
+}
+
+ejemplo de core/user/create
+
+------------
+
+para hacer un get se tiene que estar autenticado (token) 
+en postman es Headers Key: Authorization value: Token eltokenaqui
+
+---------------------
+para modificar un usuario se debe estar autenticado 
+
+{
+    "user": {
+        "nombre": "sante",
+        "cedula": 1222,
+        "email": "test9@test.com",
+        "fecha_nacimiento": "2022-12-22",
+        "celular": 123,
+        "direccion": "imachupon"
+    },
+    "servicio_activo": "222",
+    "al_dia": 1
+}
+
+ejemplo de core/user/client/9/
+
+---------------------
+
+{
+    "username": "test80@test.com",
+    "password": "1234"
+
+}
+
+ejemplo de core/user/token
+
+----------------------------
+{
+    "factura_id": 1
+}
+
+ejemplo de core/user/client/pay
+
+------
+
+{
+    "factura_id": 1,
+    "cliente_id": 5
+}
+
+ejemplo de core/user/operator/pay
+
+{
+    "cliente_id" : 2
+}
+
+ejemplo de core/user/client/disable
+
+{
+    "cliente_id" : 2
+}
+
+ejemplo de core/user/client/enable

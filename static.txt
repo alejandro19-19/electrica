@@ -1,0 +1,6 @@
+cuando se desea hacer el deploy en el server se debe de tener la carpeta static, esta se 
+genera con la ayuda del siguiente comando:
+
+Python manage.py collectstatic
+
+debes de tener el static y el static root en settings

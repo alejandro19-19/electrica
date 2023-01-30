@@ -1,0 +1,21 @@
+meterse a la carpeta Scripts y ejecutar .\activate
+
+cd .. para devolverse un directorio
+cd Electrica para entrar en electrica
+cd Scripts
+.\activate
+
+pip freeze para saber que esta instalado
+
+nota una vez se entra en el ambiente virtual se debe de hacer cd .. y cd .
+para pasar de la carpeta Scripts a electrica_api
+
+
+
+
+crear ambiente
+python -m venv
+
+entrar al ambiente virtual y luego ir a la carpeta electrica_api ejecutar
+
+pip install -r requirements.txt

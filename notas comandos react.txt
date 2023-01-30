@@ -1,0 +1,2 @@
+npm install (tener instalado nodejs)
+npm run dev   similar al runserver en django
