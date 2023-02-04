@@ -1,11 +1,8 @@
-# Mande - Proyecto Bases de Datos
+# Electrica - Proyecto Desarrollo de software
 ***
-## Integrantes: 
-  * Alejandro Peñaranda Agudelo - 1941008
-  * Alejandro Escobar Tafurt - 1941378
-  * Juan Camilo Santa Gomez - 1943214
-
-
+## Backup de: 
+  * Alejandro Escobar Tafurt
+  
 ## Instalación
 ***
 Pasos preliminares:
